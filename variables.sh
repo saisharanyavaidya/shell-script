@@ -1,4 +1,4 @@
-**Test**
+#!/bin/bash
 
 ITEM1=$1
 ITEM2=$2
