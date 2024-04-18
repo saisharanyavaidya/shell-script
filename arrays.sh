@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FRUITS = ("apple" "banana" "fig" "grapes" "pears")
+FRUITS=("apple" "banana" "fig" "grapes" "pears")
 
 echo "${FRUITS[0]}"
 echo "${FRUITS[1]}" 
