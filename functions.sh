@@ -11,9 +11,9 @@ N="\e[31m"
 
 VALIDATE (){
     if [ $1 -ne 0 ]
-    then echo "installing $2 $R failed $N ..."
+    then echo -e "installing $2 $R failed $N ..."
     exit 1
-    else echo "installing $2 $G success $N ..."
+    else echo -e "installing $2 $G success $N ..."
     fi
 }
 
