@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if [ $USERID ne 0 ]
+if [ $USERID -ne 0 ]
 then echo "not super user"
 exit 1
 else 
@@ -11,7 +11,7 @@ fi
 
 dnf install mysql -y
 
-if [ $? ne 0 ]
+if [ $? -ne 0 ]
 then echo "failure"
 else echo "success"
 fi
