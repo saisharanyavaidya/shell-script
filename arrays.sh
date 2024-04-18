@@ -2,4 +2,8 @@
 
 FRUITS = ("apple" "banana" "fig" "grapes" "pears")
 
-echo "${FRUITS[0]}  ${FRUITS[1]}  ${FRUITS[2]}  ${FRUITS[3]}  ${FRUITS[4]}"
+echo "${FRUITS[0]}"
+echo "${FRUITS[1]}" 
+echo "${FRUITS[2]}"
+echo "${FRUITS[3]}"
+echo "${FRUITS[4]}"
