@@ -27,9 +27,5 @@ fi
 for i in $@ 
 do
     dnf install $i -y &>>$LOGFILE
-    if [ $? -ne 0 ]
-    then echo -e "installing.. $i $R failed $N ..."
-    exit 1
-    else echo -e "installing... $i $G success $N ..."
-    fi
+    VALIDATE $? $i
 done
