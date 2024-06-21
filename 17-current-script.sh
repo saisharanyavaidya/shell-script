@@ -7,6 +7,6 @@ echo "PID Before : $$"
 
 #./other-script.sh
 
-source ./other-script.sh
+source .18-/other-script.sh
 
 echo "Name After : $NAME"
