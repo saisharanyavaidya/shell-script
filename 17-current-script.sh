@@ -1,12 +1,12 @@
 #!/bin/bash
 
-NAME="My name is Avyan Viraaj"
+COURSE="DevOps from Current Script"
 
-echo "Name Before : $NAME"
-echo "PID Before : $$"
+echo "Before calling other script, course: $COURSE"
+echo "Process ID of current shell script: $$"
 
-#./other-script.sh
+#./18-other-script.sh
 
-source .18-/other-script.sh
+source ./18-other-script.sh
 
-echo "Name After : $NAME"
+echo "After calling other script, course: $COURSE"

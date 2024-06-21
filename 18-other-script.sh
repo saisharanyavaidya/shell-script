@@ -1,6 +1,7 @@
+
 #!/bin/bash
 
-NAME="My name is Avi"
+COURSE="DevOps from Other Script"
 
-echo "Before Name in other : $NAME"
-echo "Before PID in other: $$"
+echo "Variable value from Other script: $COURSE"
+echo "Process ID of other script: $$"
