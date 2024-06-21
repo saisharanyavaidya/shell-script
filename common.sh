@@ -8,13 +8,13 @@ R="\e[31m"
 W="\e[32m"
 N="\e[0m"
 
-set -e
+# set -e
 
-handle_error(){
-    echo -e "Error occured at line number: $R $1 $N, error command: $R $2 $N"
-}
+# handle_error(){
+#     echo -e "Error occured at line number: $R $1 $N, error command: $R $2 $N"
+# }
 
-trap 'handle_error ${LINENO} "$BASH_COMMAND"' ERR
+# trap 'handle_error ${LINENO} "$BASH_COMMAND"' ERR
 
 
 VALIDATE (){
