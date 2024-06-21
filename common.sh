@@ -11,7 +11,7 @@ N="\e[0m"
 set -e
 
 handle_error(){
-    echo "Error occured at line number: $1, error command: $2"
+    echo "Error occured at line number: $R $1 $N, error command: $R $2 $N"
 }
 
 trap 'handle_error ${LINENO} "$BASH_COMMAND"' ERR
