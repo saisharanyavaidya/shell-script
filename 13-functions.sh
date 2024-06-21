@@ -23,7 +23,7 @@ else
     echo "You are super user."
 fi
 
-dnf install mysql -y &>>$LOGFILE
+dnf install mysql -y &>>$LOGFILE #&> means Every output of cmd is redirected to file. and >> means appends the output of command to file
 VALIDATE $? "Installing MySQL"
 
 dnf install git -y &>>$LOGFILE
